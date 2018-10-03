@@ -1,0 +1,790 @@
+
+.dev_vip{
+    text-decoration: transparent;
+    color: white;
+}
+#t_cconnecter {
+
+    color: #fff;
+    background-color: rgba(0,0,0,0.35);
+    font-size: 1.14em;
+    font-weight: 300;
+    margin: 0;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px 0;
+    cursor: pointer;
+    padding:13px 0 13px 0;
+}
+#t_dmembre {
+
+    color: #fff;
+    background-color: rgba(255,255,255,.15);
+    font-size: 1.14em;
+    font-weight: 300;
+    margin: 0;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+ 
+    cursor: pointer;
+    padding:13px 0 13px 0;
+}
+
+#t_dmembre  h4 {
+
+    padding-top: 10px;
+}
+
+
+.trait_dessus 
+{ 
+
+width : 1000px; 
+} 
+
+
+.login-champ-password{
+
+
+    width: 90%;
+    padding-right: 20px;
+       padding-left: 95px;
+   height: 35px;
+}
+@media (max-width:500px){
+    .login-champ-password {
+        width: 90%;
+        padding-right: 20px;
+        padding-left: 65px;
+        height: 35px;
+    
+    }
+
+
+
+    .logo_tap img{
+        background-image:  url(image/logo_noir.png);
+        
+        }
+    #popmyday-featurette-header-v2 {
+        /* 	box-shadow: inset 0px 50px 0px 0px rgba(0,0,0,0.6); */
+        margin: 0;
+        padding: 20px 0px 150px 0px;
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.13) 0px, rgba(0,0,0,0) 100px), url(image/slide1_500.jpg);
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.13) 0px, rgba(0,0,0,0) 100px), url(image/slide1_500.jpg);
+        background-image: -o-linear-gradient(top, rgba(0,0,0,0.13) 0px, rgba(0,0,0,0) 100px), url(image/slide1_500.jpg);
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.13) 0px, rgba(0,0,0,0) 100px), url(.image/slide1_500.jpg);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.13) 0px, rgba(0,0,0,0) 100px), url(image/slide1_500.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.section-title{
+    /*padding-left: 125px;*/
+}
+@media (max-width:500px){
+
+    .section-title{
+        padding-left: 10px;
+    }
+}
+
+
+.blc1{
+
+    margin-left: 150px;
+    color: white;
+    margin-bottom: 95px;
+    
+
+}
+
+.logo_tap{
+    padding-left: 100px;
+
+}
+@media ( max-width:500px){
+.logo_tap{
+
+    width: 50px;
+    height: 25px;
+    margin-left: 1px;
+}
+.logo_tap img {
+    background-image:  url(image/logo_noir.png);
+    width: 190px;
+    height: 135px;
+    margin-left: 1px;
+    margin-top: 154px;
+} 
+}
+
+
+.popmyday-wrapper1 {
+    margin: 0 auto 0 auto;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+
+}
+
+.splach2partie {
+    margin: 0;
+    padding: 35px 0 5px 0;
+       background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(image/splash-2.jpg);
+}
+
+.tap4glam-featurette-side {
+    
+    display: inherit;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+   height: 200px;
+       width: 350px;
+    text-align: center;
+  /*  border-radius: 25px;*/
+    align-content:flex-end;
+}
+@media (max-width:500px){
+    .tap4glam-featurette-side {
+        padding: 20px;
+        display: inherit;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+       height: 200px;
+           width: 300px;
+        text-align: center;
+      /*  border-radius: 25px;*/
+        align-content:flex-end;
+        margin-top: 245px;
+    }
+
+    .tap4glam-featurette-side {
+      
+       height: 250px;
+        
+    }
+
+    #popmyday-featurette-side-vcenter-wrapper{
+        /*position: absolute;*/
+        background-color: rgba(255,255,255,0.0);
+        width: 1130px;
+        height: 350px;
+        margin: auto;
+        top: 0; left: 0; bottom: 0; right: 0;
+        text-align: right;
+      margin-left: 1px;
+    }
+
+}
+
+
+
+.form-container-password{
+
+width: 100%;
+}
+.form-btn-conect{
+background-color: #bd1343;
+border: none;
+width: 90%;
+padding-right: 20px;
+padding-left: 20px;
+margin-left:15px; 
+height: 35px;
+margin-top: 45px;
+font-size: 1.28em;
+text-transform: uppercase;
+}
+.form-btn-conect:hover{
+    background-color: #e81b55;
+    border: none;
+    width: 90%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left:15px; 
+    height: 35px;
+    margin-top: 45px;
+    font-size: 1.28em;
+    text-transform: uppercase;
+    }
+
+#login-champ-password{
+    width: 90%;
+    padding-right: 20px;
+    padding-left: 125px;
+    /* margin-left: 25px; */
+    height: 35px;
+}
+.btn-conect{
+    color: white;
+    background-color:#bd1343;
+    border: none;
+}
+.btn-conect:hover{
+
+    color: white;
+    background-color:transparent;
+    border: none;
+}
+.page_signin{
+float: left;
+margin-left: 15px;
+margin-top: 12px;
+
+}
+#t1{
+
+    margin: 0px auto 0px auto;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.42em;
+    font-family: "proxima-nova", sans-serif;
+    /* font-weight: 600; */
+    /* letter-spacing: 1px; */
+    line-height: 35px;
+    color: white;
+}
+
+
+
+
+/*---------------------------------------------*/
+
+
+
+#style_pourqouitap4glam {
+    color: white;
+   
+    margin-bottom: 25px;
+}
+
+.infoarea-icon {
+    width: 106px;
+    height: 106px;
+    line-height: 185px;
+    margin: 0 auto 33px;
+    border-radius: 50%;
+    border: 5px solid #cdd1d4;
+    box-shadow: inset 0 0 0 8px #031b27, inset 0 0 0 10px #115873;
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: 56px;
+margin: 0 0;
+padding-bottom: 90px;
+}
+
+
+.content_services{
+    margin-top: 200px;
+    position: center;
+
+}
+
+.image {
+    display: block;
+
+}
+
+.navbar-header a
+{
+    color: black;
+    text-decoration:none;
+    float: left;
+   
+padding-left: 25px;
+}
+.popmyday-wrapper1{
+    
+    float: left;
+    padding-left: 75px;
+}
+@media (max-width:500px){
+    .popmyday-wrapper1{
+    
+        float: left;
+        padding-left: 10px;
+    }
+
+    
+}
+
+.slider{
+
+position: absolute;
+}
+
+
+.bloc_service{
+
+text-color: #2A2A2A;
+    margin-top: 25px;
+    vertical-align: top;
+
+}
+
+/* nom de sous services*/
+.bloc_service li  {
+
+
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    margin-bottom: 7px;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.bloc_service li a{
+
+    color:rgba(133,133,133,0.83);
+}
+
+
+
+/*  nom de service   */
+.service a{
+    font-size: 30px;
+    color: black;
+    text-decoration:none;
+    letter-spacing: 3px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+
+.col-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin: 0 10px 20px 10px;
+    padding: 0px 0px 0px 0px;
+    background-color: lightgray;
+    width: 275px;
+    height: 275px;
+    line-height: 275px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+}
+
+.col-3:hover {
+    cursor:pointer;
+    background-size: 110% 110%;
+    transition:all 0.2s ease;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    -ms-transition:all 0.2s ease;
+}
+
+.col-ep{
+
+    background-color: red;
+}
+
+
+.navbar-brand11{}
+
+
+.navbar-brand11 img{
+
+    width: 250px;
+    height: 148px;
+    margin-left: 115px;
+    margin-top: 55px;
+
+}
+
+
+.job-category-name {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    max-height: 120px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 1.3;
+    text-align: left;
+}
+
+
+
+
+/*----------------------resp_tap_xxl---------------------*/
+@media (min-width:1500px)
+{
+    
+    .portfolio_mod{
+        margin-left: 50px;
+        
+        
+    }
+    
+    
+    .navbar-right{
+    margin-right: 50ox;
+        margin-top: 50px;
+        
+    }
+
+    .img_tn{
+    background: url(../image/web/popmyday/tn_icone.png);
+        width: 25px;
+    }
+    
+    #titre_serv{
+
+    letter-spacing: 4px;
+    padding-left: 470px;
+}
+    
+     #titre_sous_serv{
+        
+        letter-spacing: 4px;
+    padding-left: 350px;
+    }
+    
+       .navbar-brand1{
+        
+        float: left;
+    }
+    .navbar-brand1 img{
+
+      width: 150px;
+     margin-left: 75px; 
+
+    /*height: 100px;*/
+    
+    /*margin-top: 45px;*/
+
+}
+    
+    #logo_tap{
+        width: 150px;
+        height: 100px;
+    }
+}
+
+/*-----------------------------responsive tap4glam --------------------------------*/
+
+@media (min-width: 1200px) and (max-width:1500px){
+    
+    
+    .portfolio_mod{
+        margin-left: 50px;
+        
+        
+    }
+    
+       .navbar-right{
+    margin-right: 50ox;
+        margin-top: 50px;
+        
+    }
+    
+    .navbar-nav.navbar-right:last-child {
+        margin-right: 1px;}
+    
+      .img_tn{
+    background: url(../image/web/popmyday/tn_icone.png);
+        width: 30px;
+    }
+    
+    .navbar-brand1{
+        
+        float: left;
+    }
+    .navbar-brand1 img{
+
+    width: 150px;
+     margin-left: 120px; 
+   /** margin-top: 45px;*/
+
+}
+    
+#titre_serv{
+
+    letter-spacing: 4px;
+    padding-left: 470px;
+}
+ 
+    #titre_sous_serv{
+        
+        letter-spacing: 4px;
+    padding-left: 350px;
+    }
+    
+    #logo_tap{
+        width: 150px;
+        height: 100px;
+    }
+}
+
+.detail-wrapper {
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 0 0 20px 0;
+    /* 	max-width: 1130px; */
+    max-width: 930px;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.article1>.titre_groupe{
+max-height: 750px;
+}
+
+.bloc_principale{
+
+    position: relative;;
+    max-width: 950px;
+}
+/**------------------- mon travail de responsive design----------------------------**/
+
+@media(min-width:992px) and (max-width:1200px){
+    
+       .navbar-right{
+    margin-right: 45px;
+        margin-top: 50px;
+        
+    }
+      .img_tn{
+    background: url(../image/web/popmyday/tn_icone.png);
+        width: 30px;
+    }
+    
+    
+    #logo_tap{
+        width: 130px;
+    height:100px;
+    margin-left: 40px;
+   
+        
+    }
+       .navbar-brand1 img{
+
+    width: 150px;
+    /* margin-bottom: 25px; */
+    height: 95px;
+           margin-left: 70px
+   
+}
+    
+    #titre_serv{
+
+    letter-spacing: 4px;
+    padding-left: 390px;
+}
+ 
+    #titre_sous_serv{
+        
+        letter-spacing: 4px;
+    padding-left: 350px;
+    }
+    }
+
+
+/**------------------- mon travail de responsive design----------------------------**/
+    
+@media (max-width:991px) and (min-width:577px)  {
+    
+    .navbar{
+        height: 50px;
+    }
+    
+    .navbar-default {
+ 
+    height: 55px;
+ 
+    }
+       .navbar-right{
+    margin-right: 35ox;
+        margin-top: 50px;
+        
+    }
+      .img_tn{
+    background: url(../image/web/popmyday/tn_icone.png);
+        width: 30px;
+    }
+    
+      #logo_tap img{
+        background-image:  url(image/logo_noir.png);
+        width: 130px;
+    height:70px;
+    margin-left: 40px;
+   
+        
+    }
+       .navbar-brand1 img{
+
+    width: 120px;
+    /* margin-bottom: 25px; */
+    height: 85px;
+        margin-left: 80px;
+   
+}
+    
+    #titre_serv{
+
+    letter-spacing: 4px;
+    padding-left: 220px;
+}
+ 
+    #titre_sous_serv{
+        
+        letter-spacing: 4px;
+    padding-left: 350px;
+    }
+    }
+    
+    
+    
+
+/**------------------- mon travail de responsive design----------------------------**/
+    
+@media (max-width:576px) and (min-width:250px)   {
+     .navbar-form{
+        background-color: #cdd1d4;
+    }
+    
+    
+.content_services{
+    margin-top: 130px;
+    position: center;
+
+}
+    
+    .portfolio-container{
+        padding-right: 100px;
+        width: 350px;
+    }
+    
+    
+    .navtap{
+        
+     
+         height: 50px;
+    }
+    
+    .navbar{
+        height: 50px;
+        min-height: 50px;
+    }   
+    
+    
+    .navbar-right{
+    margin-right: 25px;
+        margin-top: 50px;
+        
+    }
+      .img_tn{
+    background: url(../image/web/popmyday/tn_icone.png);
+        width: 30px;
+    }
+    
+    
+     #logo_tap img{
+        background-image:  url(image/logo_noir.png);
+             width: 70px;
+    height: 45px;
+    margin-left: 75px;
+    }
+    
+    .navbar-brand1 img{
+
+        width: 70px;
+        height: 45px;
+        align-content: center;
+        margin-left: 120px;
+        margin-top: 0px;
+    }
+ 
+.popmyday-featurette-side-button {
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    font-size: 15px;
+    /* width: 100%; */
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+    
+    
+    .navbar-header a
+{
+    color: black;
+    text-decoration:none;
+    float:inherit;
+    padding-top: 0px;
+
+}
+
+    
+   
+    .content_services h2{
+        float: left;
+        padding-left: 170px;
+    }
+    
+    #grid_tap4
+    {
+        padding-left: 1px;
+        width: 250px;
+    }
+
+}
+
+@media (max-width:250px)
+{
+    
+      .navbar-brand1 img{
+
+        width: 70px;
+        height: 45px;
+        align-content: center;
+        margin-left: 20px;
+        margin-top: 0px;
+    } 
+       
+    .navbar-header a
+{
+    color: black;
+    text-decoration:none;
+    float:inherit;
+    padding-top: 0px;
+
+}
+     #logo_tap img{
+        background-image:  url(image/logo_noir.png);
+        width: 70px;
+        height: 45px;
+    }
+    
+}
+/**         **/
+/** Small devices (landscape phones, 576px and up)**/
+
+

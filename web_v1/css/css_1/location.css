@@ -1,0 +1,176 @@
+/*******************************
+
+	#LOCATION
+
+*******************************/
+
+
+.location-wrapper {
+    position: relative;
+    margin: 130px auto 0 auto;
+    max-width: 600px;
+    padding: 40px 20px 40px 20px;
+    background-color: rgba(255,255,255, 0.9);
+    text-align: center;
+}
+
+/*** BOX INFO ***/
+
+#box-info {
+    margin: 0 0 1% 0 !important;
+}
+
+
+.shaker {
+    animation: shake1 0.75s 2s 2;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+/*** STREET ***/
+
+#street {
+    vertical-align: top;
+    width: 48%;
+    margin: 0 1% 1% 0 !important;
+    height: 48px;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** POSTCODE ***/
+
+#postcode {
+    vertical-align: top;
+    width: 20%;
+    margin: 0 1% 1% 0 !important;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** GEO ***/
+
+a#geo {
+    width: 30%;
+    margin: 0 0 1% 0 !important;
+}
+
+
+/*** EMAIL ***/
+
+#email {
+    width: 100%;
+    margin: 0 0 0 0 !important;
+    height: 48px;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** BUTTON ***/
+
+button[type="submit"] {
+    min-width: 200px;
+}
+
+
+/*******************************
+
+    #RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 1200px)
+{
+}
+
+@media all and (max-width: 990px)
+{
+}
+
+@media all and (max-width: 767px)
+{
+    .location-wrapper {
+        margin: 75px auto 0 auto;
+        max-width: 600px;
+        padding: 0px 0px 100px 0px;
+        background-color: transparent;
+    }
+
+    /*** BOX INFO ***/
+
+    #box-info {
+        margin: 0 0 4% 0 !important;
+    }
+
+    /*** STREET ***/
+
+    #street {
+        width: 100%;
+        margin: 0 0 0 0 !important;
+        padding-left: 15px !important;
+    }
+
+    /*** POSTCODE ***/
+
+    #postcode {
+        width: 65%;
+        margin: 0 0 0 0 !important;
+        padding-left: 15px !important;
+    }
+
+    /*** GEO ***/
+
+    a#geo {
+        width: 35%;
+        margin: 0 0 0 0 !important;
+        overflow: hidden;
+    }
+
+    /*** EMAIL ***/
+
+    #email {
+
+    }
+
+}
+
+
+/*******************************
+
+    #ANIMATION
+
+*******************************/
+
+
+@keyframes shake1 {
+    10%, 90% {
+        transform: translate3d(-0.5px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(1px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+@keyframes shake2 {
+    0%   {
+        transform: rotate(0deg) ;
+    }
+    50%  {
+        transform: rotate(-5deg) ;
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

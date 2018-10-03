@@ -1,0 +1,231 @@
+/*******************************
+
+	#WHERE_WHEN
+
+*******************************/
+
+
+.date-time-wrapper {
+    position: relative;
+    margin: 130px auto 0 auto;
+    max-width: 600px;
+    padding: 40px 20px 40px 20px;
+    background-color: rgba(255,255,255, 0.9);
+    text-align: center;
+}
+
+
+/*** NB PART ***/
+
+.pop-select-v2-m#nb-part {
+    width: 30%;
+    margin: 0 0 1% 0;
+}
+
+.pop-select-v2-m select#nb-part {
+    width: 130%;
+}
+
+#where-when .pop-select-v2-m #nb-part {
+    padding: 0 0 0 15px;
+}
+
+
+/*** DATE ***/
+
+.pop-select-v2-m#where-when-date {
+    width: 32%;
+    margin: 0 1% 1% 1%;
+}
+
+.pop-select-v2-m select#where-when-date {
+    width: 130%;
+}
+
+#where-when .pop-select-v2-m #where-when-date {
+    /* 	background: url(../../image/web/icon/calendar-250.png) 12px/ 14px no-repeat; */
+    /* 	background: url(../../image/web/icon/icon2.png) 10px/ 30px 30px no-repeat; */
+    /*background: url(../../image/web/icon/icn-cal.png) 0px/ 30px 48px no-repeat;*/
+    padding: 0 0 0 15px;
+}
+
+
+/*** TIME ***/
+
+.pop-select-v2-m#where-when-time {
+    width: 36%;
+    margin: 0 0 0 0;
+}
+
+.pop-select-v2-m select#where-when-time {
+    width: 130%;
+}
+
+
+/*** STREET ***/
+
+#street {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: top;
+    width: 48%;
+    margin: 0 1% 1% 0 !important;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** POSTCODE ***/
+
+#postcode {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: top;
+    width: 20%;
+    margin: 0 1% 1% 0 !important;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** GEO ***/
+
+a#geo {
+    width: 30%;
+    margin: 0 0 1% 0 !important;
+}
+
+
+/*** NOTE ***/
+
+form#where-when #note {
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 0% 0 !important;
+    padding: 0 15px 0 15px;
+}
+
+
+/*** NAIL REMOVAL ***/
+
+.pop-select-v2-m#gel-removal {
+    width: 100%;
+    margin: 0% 0% 1% 0%;
+}
+
+.pop-select-v2-m select#gel-removal {
+    width: 130%;
+}
+
+
+/*** BUTTON ***/
+
+button[type="submit"] {
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+
+/*******************************
+
+	#WHERE_WHEN RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 1200px)
+{
+}
+
+@media all and (max-width: 990px)
+{
+}
+
+@media all and (max-width: 767px)
+{
+    .date-time-wrapper {
+        margin: 75px auto 0 auto;
+        max-width: 600px;
+        padding: 0px 0px 100px 0px;
+        background-color: transparent;
+    }
+
+    /*** NB PART ***/
+
+    .pop-select-v2-m#nb-part {
+        width: 100%;
+        margin: 0 0 2% 0;
+    }
+
+    .pop-select-v2-m select#nb-part {
+        width: 120%;
+        padding-left: 15px !important;
+    }
+
+    /*** DATE ***/
+
+    .pop-select-v2-m#where-when-date {
+        width: 46%;
+        margin: 0 0 2% 0 !important;
+    }
+
+    .pop-select-v2-m select#where-when-date {
+        width: 120%;
+        padding-left: 15px !important;
+    }
+
+    /*** TIME ***/
+
+    .pop-select-v2-m#where-when-time {
+        width: 54%;
+        margin: 0 0 2% 0;
+    }
+
+    .pop-select-v2-m select#where-when-time {
+        width: 120%;
+        padding-left: 15px !important;
+    }
+
+    /*** STREET ***/
+
+    #street {
+        width: 100%;
+        margin: 0 0 0 0 !important;
+        padding-left: 15px !important;
+    }
+
+    /*** POSTCODE ***/
+
+    #postcode {
+        width: 60%;
+        margin: 0 0 0 0 !important;
+        padding-left: 15px !important;
+    }
+
+    /*** GEO ***/
+
+    a#geo {
+        width: 40%;
+        margin: 0 0 0 0 !important;
+        overflow: hidden;
+    }
+
+    /*** NOTE ***/
+
+    form#where-when #note {
+        margin: 2% 0 0% 0 !important;
+        padding-left: 15px !important;
+    }
+
+    /*** NAIL REMOVAL ***/
+
+    .pop-select-v2-m#gel-removal {
+        width: 100%;
+        margin: 0% 0% 2% 0%;
+    }
+
+    .pop-select-v2-m select#gel-removal {
+        width: 120%;
+        padding-left: 15px !important;
+    }
+}

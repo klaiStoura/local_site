@@ -1,0 +1,355 @@
+/*******************************
+
+	#GIFT 
+	
+*******************************/
+
+
+html#gift {
+	background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.gift-wrapper {
+	position: relative;
+	margin: 130px auto 0 auto;
+	max-width: 600px;
+	background-color:;
+	text-align: center;
+	padding-bottom: 80px; 
+}
+
+#gift-title {
+	font-size: 30px;
+	text-shadow: 0px 1px 2px rgba(0,0,0, 0.4);
+	margin: 0 0 30px 0;
+	/* 	font-family: 'Antic Slab'; */
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	color:white;
+}
+
+#gift-box {
+    text-align: left;
+    position: relative;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0px;
+	padding: 30px 20px 30px 20px;
+	margin: 0 0 6px 0;
+	border: 0px solid black;
+/* 	font-size: 16px; */
+}
+
+#gift-subtitle {
+	z-index: 20;
+	margin: 0 0 30px 0;
+	color: white;
+	font-size: 14px;
+}
+
+/*** INPUT ***/
+
+form#gift #first-name {
+	vertical-align: top;
+	width: 27%;
+	margin: 0px 2px 6px 0px;
+    background-color: rgba(255,255,255,0.9);
+
+}
+
+form#gift #last-name {
+	vertical-align: top;
+    width: 28%;
+	margin: 0px 0px 6px 0px;
+    background-color: rgba(255,255,255,0.9);
+
+}
+
+form#gift #email {
+	vertical-align: top;
+	width: 400px;
+	margin: 0px 2px 6px 0px;
+}
+
+form#gift #message {
+	vertical-align: top;
+	width: 100%;
+	margin: 0px 2px 6px 0px;
+    background-color: transparent;
+}
+
+
+form#gift #phone {
+	vertical-align: top;
+	width: 274px;
+	margin: 0px 0px 6px 0px;
+}
+
+form#gift #postcard-name {
+	vertical-align: top;
+	width: 97.7%;
+	margin: 0px 2px 6px 0px;
+}
+
+form#gift #postcard-street {
+	vertical-align: top;
+	width: 97.7%;
+	margin: 0px 2px 6px 0px;
+}
+
+form#gift #postcard-postcode {
+	vertical-align: top;
+	width: 48%;
+	margin: 0px 2px 6px 0px;
+}
+
+form#gift #postcard-country {
+	vertical-align: top;
+	width: 48%;
+	margin: 0px 2px 6px 0px;
+}
+
+/*** SELECT ***/
+
+.pop-select-m#gift-amount {
+	width: 43%;
+	margin: 0px 2px 6px 0px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.pop-select-m select#gift-amount {
+	width: 110%;
+
+}
+
+.gift .panel {
+    background-color: rgba(255,255,255,0.9) !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin: 0px 0px 6px 0px !important;
+    box-shadow: none ;
+}
+
+
+/*** BUTTON ***/
+
+button#gift-submit {
+	width: 100%;
+	margin: -14px 0px 0px 0px;
+}
+
+/*******************************
+
+	#GIFT_RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 1200px)
+{
+
+}
+
+@media all and (max-width: 990px)
+{
+
+}
+
+@media all and (max-width: 767px)
+{
+	.gift-wrapper {
+		margin: 80px auto 0 auto;
+		max-width: 300px;
+	}
+		
+	#gift-title {
+		font-size: 24px;
+		margin: 0 0 30px 0;
+		color:white;
+	}
+	
+	gift-subtitle {
+		margin: 0 0 30px 0;
+		color: white;
+		font-size: 16px;
+	}
+		
+	/*** INPUT ***/
+
+	form#gift #first-name {
+		width: 147px;
+	}
+	
+	form#gift #last-name {
+		width: 147px;
+	}
+	
+	form#gift #email {
+		width: 300px;
+	}
+	
+	form#gift #message {
+		width: 100%;
+	}
+	
+	form#gift #phone {
+		width: 174px;
+	}
+		
+	/*** SELECT ***/
+	
+	.pop-select-m#gift-amount {
+		width: 300px;
+	}
+	
+	.pop-select-m select#gift-amount {
+		width: 350px;
+	}
+			
+}
+
+
+/*******************************
+
+	#GIFT_ORDER_CONF
+	
+*******************************/
+
+
+html[id="gift-order-conf"] {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#gift-order-conf-wrapper {
+	position: relative;
+	margin: 130px auto 0 auto;
+	max-width: 400px;
+	background-color:;
+	text-align: center; 
+}
+
+#gift-order-conf-title {
+	/* 	font-family: 'Antic Slab'; */
+	/*font-family: 'Roboto Slab', serif;*/
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+	font-size: 30px;
+	margin: 0 0 30px 0;
+	text-shadow: 0px 1px 2px rgba(0,0,0, 0.4);
+	color:white;
+}
+
+#gift-order-conf-box {
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0px;
+	padding: 20px 10px 20px 10px;
+	margin: 0 0 6px 0;
+}
+
+#gift-order-conf-content {
+	margin: 0 0 0px 0;
+	color: #555555;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+#goc-bold {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#goc-text {
+	margin: 0 0 10px 0;
+}
+
+#goc-big {
+	margin: 0px 0 0px 0;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+
+/*******************************
+
+	#GIFT_ORDER_CONF_RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 1200px)
+{
+	#gift-order-conf-wrapper {
+	}
+}
+
+@media all and (max-width: 990px)
+{
+	#gift-order-conf-wrapper {
+	}
+}
+
+@media all and (max-width: 767px)
+{
+	#gift-order-conf-wrapper {
+		margin: 80px auto 0 auto;
+		max-width: 300px;
+		padding-bottom: 50px;
+	}
+		
+	#order-conf-title {
+		font-size: 24px;
+		margin: 0 0 30px 0;
+		color:white;
+	}
+	
+	#gift-order-conf-subtitle {
+		margin: 0 0 30px 0;
+		color: white;
+		font-size: 16px;
+	}
+	
+	#btn-pop-oc {
+		width: 300px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

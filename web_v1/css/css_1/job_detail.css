@@ -1,0 +1,259 @@
+/*******************************
+
+	#DETAIL
+
+*******************************/
+
+
+#detail-carousel {
+    padding: 100px 0 0 0;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+#detail-duration-resp {
+    visibility: hidden;
+}
+
+#detail-duration {
+    display: inline;
+    color: #AAAAAA;
+    padding-left:40px;
+    letter-spacing: 1px;
+    font-size: 85%;
+}
+
+.detail-wrapper {
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 0 0 20px 0;
+    /* 	max-width: 1130px; */
+    max-width: 930px;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+}
+
+#detail-button {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+#detail-button .pop-button-v2-s {
+    min-width: 240px;
+}
+
+h4 {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+h4 a {
+    text-decoration: none !important;
+}
+
+.detail-lign-title {
+    height: 1px;
+    width: 100%;
+    background-color: #e9e9e9;
+}
+
+.detail-lign {
+    height: 1px;
+    width: 100%;
+    background-color: #e9e9e9;
+}
+
+#customer-name {
+    color: black;
+    font-weight: 500;
+}
+
+
+/***** Start Custom Accordion *****/
+
+#accordion {
+    text-align: left;
+}
+
+.panel-default {
+    border: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.panel-default>.panel-heading {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+    border:0;
+}
+
+h4.panel-title>a {
+    display: inline-block;
+    width:100%;
+    padding: 30px 0 30px 0;
+    background-color: transparent;
+}
+
+/* First panel header */
+.panel-heading#heading1>h4.panel-title>a {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family: "proxima-nova", sans-serif;
+}
+
+/* Next panel headers */
+.panel-heading>h4.panel-title>a {
+    color: black;
+    font-size: 20px ;
+    letter-spacing: 1.8px;
+    font-weight: 300 ;
+    font-family: "proxima-nova", sans-serif;
+}
+
+/* All panel bodies */
+.panel-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.6px !important;
+    max-width: 600px;
+}
+
+/***** End Custom Accordion *****/
+
+
+/*******************************
+
+	DETAIL RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 990px)
+{
+
+    .detail-wrapper {
+        max-width: 720px;
+    }
+
+    #detail-button .pop-button-v2-s {
+        min-width: 220px;
+    }
+
+    .title-3-teaser {
+        max-width: 550px;
+    }
+
+}
+
+@media all and (max-width: 767px)
+{
+    #detail-carousel {
+        margin: 50px 0 0 0;
+        padding: 10px 0 0 0;
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    #detail-duration {
+        display: none;
+    }
+
+    #detail-duration-resp {
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 1px;
+        color: black;
+        padding: 3px 8px 3px 8px;
+        background-color:rgba(255, 255, 255, 0.75);
+    }
+
+    .detail-wrapper {
+        position: absolute !important;
+        width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 0 15px 50px 15px;
+        background-color:;
+        padding-bottom: 100px;
+    }
+
+    #detail-button .pop-button-v2-s {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 48px;
+        border-radius: 0;
+    }
+
+    /***** Start Custom Accordion *****/
+
+    #accordion {
+    }
+
+    .panel-default {
+    }
+
+    .panel-default>.panel-heading {
+    }
+
+    .panel-group .panel-heading+.panel-collapse>.panel-body{
+    }
+
+    h4.panel-title>a {
+        padding: 20px 0 20px 0;
+    }
+
+    /* First panel header */
+    .panel-heading#heading1 {
+        text-align: center;
+    }
+    .panel-heading#heading1>h4.panel-title>a {
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+
+    /* Next panel headers */
+    .panel-heading>h4.panel-title>a {
+        font-size: 16px ;
+        letter-spacing: 1.8px;
+        font-weight: 400 ;
+    }
+
+    /* All panel bodies */
+    .panel-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0.6px !important;
+        max-width: 600px;
+    }
+
+
+    /***** End Custom Accordion *****/
+}

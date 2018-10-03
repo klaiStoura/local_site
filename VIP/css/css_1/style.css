@@ -1,0 +1,168 @@
+.babyLogin #login-container-form .outer-form-container .login-form .form-container #login-form-email,.babyLogin #login-container-form .outer-form-container .login-form .form-container #login-form-password{width:100%;background-color:#fff;padding-left: 100px; float:0;padding-right:30px;text-overflow:ellipsis;white-space:nowrap;color:#000 !important;font-style:normal !important}
+.babyLogin #login-container-form .outer-form-container .login-form .form-container input.glow{-webkit-appearance:none;border-color:#fff;box-shadow:0 0 10px #fff}
+
+.babyLogin #login-container-form .outer-form-container .login-form .form-container {
+    margin: 0 0 10px;
+    padding: 0;
+    position: relative;
+    background: #fff;}
+
+    .babyLogin #login-container-form .outer-form-container .login-form .form-container input, .babyLogin #login-container-form .outer-form-container .login-form .form-container #login-form-email, .babyLogin #login-container-form .outer-form-container .login-form .form-container #login-form-password {
+        width: 100%;
+        background-color: #fff;
+        padding-left: 100px;
+        float: 0;
+        padding-right: 30px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #000 !important;
+        font-style: normal !important;}
+
+        .form-container{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;min-height:35px;line-height:35px;margin:0 0 10px;}
+
+
+.section-head-border:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #165269;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.connecter-text11{
+
+    font-size: 1.40em;
+}
+
+
+.step-number {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    border: 6px solid #ccd0d2;
+    border-radius: 50%;
+    margin: 0 auto 32px;
+    font-family: 'Glegoo',serif;
+    font-size: 44px;
+    line-height: 1;
+    font-weight: 700;
+}
+    
+
+.logo_tap
+{
+    
+    position: relative;
+    padding-left: 25px;
+}
+
+bloc1{
+
+max-width:1000px;
+    float: left;
+
+
+}
+
+.foo1{
+    bottom: -700px;
+    max-width: 1000px;
+    padding-left: 140px;
+
+}
+
+.icon1{
+    background-image: url("/pop/pop_up_VIP_1/HOME_VIP/s/svg/quality.png");
+}
+
+.babyLogin{
+    
+    
+    background-image: url(../images/makeover4.jpg);
+width:100%;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:1350px){
+    
+    .babyLogin{
+        
+        background-image: url(../images/makeover4_1200.JPG);
+    }
+
+bloc1{
+
+        max-width:1000px;
+        float: left;
+
+
+    }
+    
+}
+@media(max-width:500px){
+    
+    .babyLogin{
+        
+        background-image: url(../images/makeover4_450.JPG);
+    }
+    
+.footer{
+
+    width: 350px;
+}
+.foo1 {
+    position: absolute;
+    bottom: -1300px;
+
+}
+
+.logo_tap
+{
+    
+    position: relative;
+    padding-left: 25px;
+}
+
+
+.facebook-text1{
+    
+        margin-left: 100px;
+}
+.footer_style1{
+    padding-left: 195px;
+}
+}
+
+.section-head-border:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #165269;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+

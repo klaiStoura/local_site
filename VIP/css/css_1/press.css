@@ -1,0 +1,488 @@
+/*******************************
+
+	PRESS
+	
+*******************************/
+
+
+.press-wrapper {
+	margin: 0 auto 0 auto;
+	padding: 0 5px 20px 5px;
+	max-width: 1130px;
+	text-align: center;
+	background-color:;
+}
+
+/**** 1 ****/
+
+#press-featurette-1 {
+	margin: 0;
+	padding: 60px 0 20px 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image:url(../../view/images/book/press/1.jpg);
+}
+
+#press-teaser {
+	margin: 130px auto 0 auto;
+	padding: 10px;
+	font-size: 30px;
+	letter-spacing: -0.5px;
+	/*font-family: 'Antic Slab';*/
+ 	/*font-family: 'helvetica neue'; */
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 300;
+	letter-spacing:0px;
+	color: white;
+	text-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+	background-color: ;
+}
+
+#press-teaser-subtitle {
+	margin: 5px auto 130px auto;
+	width: 100%;
+	color: white; 
+	font-size: 18px;
+	letter-spacing: 1.1px;
+/* 	font-family: 'Antic Slab'; */
+	font-family: 'helvetica neue';
+	font-weight: 300;
+	text-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+	background-color: ;
+	line-height: 1.5;
+}
+
+/**** COL 3 ****/
+
+.col-3-press {
+	line-height: 1.5;
+	margin: 40px 5px 10px 5px;
+	padding: 0 10px 0 10px;
+	background-color: ;
+	width: 360px;
+	vertical-align: top;
+	display: inline-block;
+	color:#7C7975;
+	font-weight: 300;
+	font-family: helvetica;
+	font-size: 17px;
+	letter-spacing: 0.9px;
+}
+
+.press-icon {
+	margin: 0;
+	padding: 0 0 8px 0;
+	font-size: 70px !important;
+/* 	color: #72c8c7; */
+	color: white;
+}
+
+#press-icon-logo {
+	font-family: 'Lobster'; 
+	font-size: 52px !important;
+/* 	color: #72c8c7; */
+	color: white;
+}
+
+.col-3-press > h2 {
+	padding: 0 0 8px 0;
+	line-height: 1.5;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color:#6d6b68;
+	font-family: 'helvetica neue';
+}
+
+.col-3-press > h2.white {
+	color: white;
+}
+
+.white {
+	color:white !important;
+	text-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+}
+
+.white > span {
+	color:white;
+	text-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+}
+
+/**** 2 ****/
+
+#press-featurette-2 {
+	padding: 35px 0 35px 0;
+	background-color: white;
+}
+
+#press-featurette-2-title {
+	line-height: 1.5;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color:#6d6b68;
+	font-family: 'helvetica neue';
+}
+
+#press-featurette-2-subtitle {
+	margin:30px auto 30px auto;
+	line-height: 1.5;
+	color:#7C7975;
+	font-weight: 300;
+	font-family: helvetica;
+	font-size: 17px;
+	letter-spacing: 0.9px;
+	text-align: left;
+	max-width: ;
+}
+
+/**** 3 ****/
+
+.press-featurette-title {
+	width: 100%;
+	margin: 10px 0 20px 0;
+	font-size: 30px;
+	letter-spacing: -0.5px;
+	/*font-family: 'Antic Slab';*/
+ 	/*font-family: 'helvetica neue'; */
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+	color:#817c77;
+}
+
+#press-featurette-3 {
+	margin: 0;
+	padding: 35px 0 35px 0;
+	color: white;
+	background-color: transparent;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image:url(../../view/images/book/press/3.jpg);
+}
+
+#press-featurette-3 .press-wrapper section p a {
+	color: white;
+}
+
+/**** 4 ****/
+
+#press-featurette-4 {
+	margin: 0;
+	padding: 35px 0 35px 0;
+	background-color: white;
+}
+
+.press-featurette-4-press-logo {
+	width: 200px;
+	height: 100px;
+	margin: 0 auto 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#press-featurette-4 .press-wrapper section p a {
+	color: #6D6B68;
+}
+
+/**** BUTTON CONTACT ****/
+
+.btn-pop-book {
+	margin: 30px auto 0 auto;
+	display: block;
+	padding: 15px 5px 15px 5px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	width: 290px;
+	font-weight: 400;
+	font-family: 'helvetica neue';
+	color: white;
+	background-color: #A1D5D3; 
+}
+
+.btn-pop-book:hover {
+	color: white !important;
+	background-color: #8FBDBC; 
+}
+
+/**** FOOTER ****/
+
+#press-footer {
+	margin: 0;
+	text-align: center;
+	padding: 25px 0 40px 0;
+	background-color: #e6e6e6;
+}
+
+.press-wrapper > select, .press-wrapper > ul, ul.press-footer > li {
+	display: inline-block;
+	margin: 15px 10px 0 10px;	
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.press-wrapper > ul > li > a {
+	color : #606060;
+}
+
+.press-wrapper > ul > li > a:hover {
+	color : black;
+	text-decoration: none;
+}
+
+.press-wrapper > #language
+{
+	margin: 35px auto 0 auto;
+}
+
+#language select {
+	background: transparent;
+	width: 80px;
+	padding: 0 0 0 15px;
+	border: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	font-size: 12px;
+	color: #606060;
+}
+
+#language {
+	font-size: 11px;
+	line-height: 28px;
+	height: 28px;
+	width: 65px;
+	overflow: hidden;
+	background: url(../../view/images/new_arrow_grey.png) no-repeat right rgba(255,255,255,0.9);
+	background-size: 40px;
+	border: 1px solid #606060;
+	border-radius: 4px;
+	margin: 0 0 10px 0;
+	background-color: transparent;
+}
+
+
+#press-footer > p {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #606060;
+	font-weight: 400;
+}
+
+/*** VIDEO ***/
+
+#videoContainer {
+	margin: 60px auto 30px auto;
+	width: 720px;
+	height: 405px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*******************************
+
+	press RESPONSIVE
+
+*******************************/
+
+
+@media all and (max-width: 1200px)
+{
+	.press-wrapper {
+		max-width: 930px;
+	}
+	
+	.col-3-press {
+		width: 290px;
+	}
+}
+
+@media all and (max-width: 990px)
+{
+	.press-wrapper {
+		max-width: 720px;
+	}
+		
+	#press-teaser {
+	    margin-top: 120px;
+	}
+	
+	#press-teaser-subtitle {
+		font-size: 16px;
+	    line-height: 1.3;
+	    margin-top: 0px;
+	}
+					
+	.col-3-press {
+		width: 220px;
+		font-size: 14px;
+		letter-spacing: 0.3px;
+	}
+	
+	.col-3-press > h2 {
+		font-size: 15px;
+	}
+	
+	#press-featurette-2-title {
+		font-size: 15px;
+	}
+	
+	#press-featurette-2-subtitle {
+		font-size: 14px;
+		letter-spacing: 0.3px;
+	}
+		
+	#press-featurette-3 {
+		padding: 30px 0 30px 0;
+	}
+	
+	#press-featurette-4 {
+		padding: 30px 0 30px 0;
+	}
+
+}
+
+@media all and (max-width: 767px)
+{
+	.press-wrapper {
+		max-width: 100%;
+	}	
+			
+	#press-featurette-1 {
+		min-height: 250px;
+		padding: 60px 0 10px 0;
+		background-repeat: no-repeat;
+	    background-position: 95% 30px;
+	    background-attachment: scroll;
+	}
+
+	#press-teaser {
+		margin: 30px auto 0 auto;
+		font-size: 23px;
+		letter-spacing: 0px;
+	}
+	
+	#press-teaser-subtitle {
+		margin: 5px auto 10px auto;
+		padding: 0 15px 0 15px;
+		font-size: 16px;
+		max-width: 100%;
+	    line-height: 1.3;
+	    letter-spacing: 1px;
+	}
+	
+	.btn-pop-book {
+		font-size: 14px;
+		width: 280px;
+		padding: 15px 5px 15px 5px;
+	}
+
+	#press-featurette-2 {
+		margin: 0;
+		padding: 20px 0 0px 0;
+	}
+
+	#press-featurette-2-title {
+		padding: 10px 0px 0px 0px;
+		margin: 0 auto 0 auto;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 1.4;
+		letter-spacing: -0.5px;
+		max-width: 300px;
+		background-color: ;
+	}
+	
+	#press-featurette-2-subtitle {
+		margin: 0 auto 0 auto;
+		padding: 20px 15px 20px 15px;
+		font-size: 15px;
+		max-width: 100%;
+	    line-height: 1.4;
+	}
+
+	.press-featurette-title {
+		font-size: 23px;
+		letter-spacing: 0px;
+		margin: 10px 0 25px 0;
+	}
+
+	.col-3-press {
+		margin: 0 auto 0px auto;
+		padding: 20px 10px 0 10px;
+		font-size: 15px;
+		max-width: 400px;
+		width: 100%;
+	    line-height: 1.4;
+		letter-spacing:;
+	}
+
+	.col-3-press > i {
+		font-size: 30px !important;
+/* 		color:#6d6b68; */
+	}
+
+	#press-icon-logo {
+		font-size:25px !important;
+	}
+
+	.col-3-press > i.white {
+		color:white;
+	}
+
+	.col-3-press > h2 {
+		font-weight: 500;
+		font-size: 15px;
+		letter-spacing: -0.6px;
+		margin: 10px 0 10px 0;
+		line-height: 1.4;
+	}
+
+	#press-featurette-3 {
+		margin: 0;
+		padding: 20px 0 5px 0;
+	    background-position: center center;
+	    background-attachment: scroll;
+	}
+	
+	#press-featurette-4 {
+		margin: 0;
+		padding: 20px 0 5px 0;
+	}
+
+	.press-featurette-4-press-logo {
+		width: 100px;
+		height: 50px;
+	}
+
+	#videoContainer {
+		margin: 15px auto 15px auto;
+		width: 100%;
+		height: auto;
+	}
+	
+}

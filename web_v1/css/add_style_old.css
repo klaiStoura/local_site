@@ -1,0 +1,794 @@
+.back_img{
+    background: url(../img_pres/backgroung_insrit.png);
+    background-repeat: no-repeat;
+
+}
+
+@media(min-width:900px){
+#container_pers{
+padding-left: 250px;
+}
+}
+
+.logo_header_h {
+    
+    text-decoration: none;
+    float: top;margin-left:250px;
+     color: black;
+     margin-bottom:25px;    
+}
+
+
+.logo_header{
+
+   width:130px; 
+   height: 75px;
+}
+
+
+
+.slider_mk_fauxcills {
+
+    background-image: url(../img_pres/makeupfauxcils_slider.jpg);
+    background-repeat: no-repeat;
+     height: 450px;
+     width: 100%;
+}
+
+
+.slider_perm {
+
+    background-image: url(../img_pres/perm.jpg);
+    background-repeat: no-repeat;
+     height: 450px;
+     width: 100%;
+}
+
+.slider_pedicure {
+
+    background-image: url(../img_pres/ped.jpg);
+    background-repeat: no-repeat;
+     height: 450px;
+     width: 100%;
+}
+.slider_posevernis{
+     background-image: url(../img_pres/vernis.jpg); 
+     background-repeat: no-repeat; 
+     height: 450px;
+     width: 100%;
+}
+
+.slider_makeup {
+
+    background-image: url(../img_pres/makeup_slider.jpg);
+    background-repeat: no-repeat;
+     height: 450px;
+     width: 100%;
+}
+
+.slider_manicure{
+
+    background-image: url(../img_pres/pedicure.jpg);
+     background-repeat: no-repeat; 
+     height: 450px;
+     width: 100%;
+
+}
+
+.slider_collagéne {
+
+    background-image: url(../img_pres/clgne_slider.jpg);
+    background-repeat: no-repeat;
+     height: 450px;
+     width: 100%;
+}
+
+.slider_kekeratine_application{
+    background-image: url(../img_pres/Keratine.jpg);
+     background-repeat: no-repeat;
+      height: 450px;
+      width: 100%;
+}
+
+.slider_proteins{
+    background-image: url(../img_pres/proteins.jpg);
+     background-repeat: no-repeat;
+      height: 450px;
+      width: 100%;
+}
+
+
+.slider_gel{
+    background-image: url(../img_pres/gel.jpg);
+     background-repeat: no-repeat;
+      height: 450px;
+      width: 100%;
+}
+@media(max-width:500px)
+{
+
+
+
+    .slider_posevernis{
+        background-image: url(../img_pres/vernis_500.jpg); 
+        background-repeat: no-repeat; 
+        height: 300px;
+        width: 100%;
+   }
+    .slider_makeup {
+
+        background-image: url(../img_pres/makeup_slider_500.jpg);
+        background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+    }
+
+    .slider_perm {
+
+        background-image: url(../img_pres/perm_500.jpg);
+        background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+    }
+
+
+    .slider_mk_fauxcills {
+
+        background-image: url(../img_pres/makeup_fauxcills_500.jpg);
+        background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+    }
+    .slider_pedicure {
+
+        background-image: url(../img_pres/ped_500.jpg);
+        background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+    }
+
+    .slider_collagéne {
+
+        background-image: url(../img_pres/clgne_slider_500.jpg);
+        background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+    }
+    .slider_manicure{
+
+        background-image: url(../img_pres/pedicure_500.jpg);
+         background-repeat: no-repeat; 
+         height: 300px;
+         width: 100%;
+
+    }
+
+    .slider_proteins{
+        background-image: url(../img_pres/proteins_500_1.jpg);
+         background-repeat: no-repeat;
+          height: 300px;
+          width: 100%;
+    }
+    .slider_gel{
+        background-image: url(../img_pres/gel_resp.JPG);
+         background-repeat: no-repeat;
+         height:300px;
+         width: 100%;
+       
+    }
+
+    .slider_kekeratine_application{
+        background-image: url(../img_pres/keratine_500.JPG);
+         background-repeat: no-repeat;
+         height: 300px;
+         width: 100%;
+       
+    }
+    .logo_header_h {
+    
+        text-decoration: none;
+      margin-left: 125px;
+         color: black;
+         margin-bottom:25px;    
+    }
+    
+    
+    .logo_header{
+    
+       width:75px; 
+       height: 45px;
+       margin-top: 5px;
+    }
+
+}
+.main-title_insrit{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding: 0 0 20px 10px !important;
+    margin: 0 !important;
+    color: #2c2c2c;
+    line-height: 35px;
+}
+.date_inscrit
+{
+    background: transparent;
+    padding: 0 0 0 15px;
+    border: 0;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    font-size: 14px;
+    color: black;
+    height: 48px;
+
+
+}
+#note{
+    margin-top: 7px;
+}
+
+
+#perso_css{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 170px;
+
+}
+
+.desc_principale{
+    padding-top: 25px;
+    max-width: 550px;
+    letter-spacing: 1.8px !important;
+
+}
+
+
+#accordion{
+    max-width: 550px;
+        padding-top: 25px;
+
+}
+.bloc_principale{
+   margin-left: 350px;
+    position: center;
+    display: inline-block;
+    width: 850px;
+}
+@media(max-width:900px)and (min-width:500px)
+{
+
+
+    .slider_gel{
+        background-image: url(../img_pres/gel_500_900.jpg);
+         background-repeat: no-repeat;
+          height: 400px;
+          width: 100%;
+    }
+    .slider_makeup {
+
+        background-image: url(../img_pres/makeup_slider_500_900.jpg);
+        background-repeat: no-repeat;
+         height: 450px;
+         width: 100%;
+    }
+
+
+    .slider_perm {
+
+        background-image: url(../img_pres/perm_500_900.jpg);
+        background-repeat: no-repeat;
+         height: 450px;
+         width: 100%;
+    }
+
+    .slider_pedicure {
+
+        background-image: url(../img_pres/ped_500_900.jpg);
+        background-repeat: no-repeat;
+         height: 450px;
+         width: 100%;
+    }
+
+
+    .bloc_principale{
+        margin-left: 15px;
+         position: center;
+         display: inline-block;
+         width: 750px;
+     }
+     #perso_css{
+        width: 250px;
+        margin-bottom: 15px;
+        margin-left: 1px;
+    
+    }
+    .slider_collagéne {
+
+        background-image: url(../img_pres/clgne_slider_500_900.jpg);
+        background-repeat: no-repeat;
+         height: 450px;
+         width: 100%;
+    }
+    .slider_minicoiffure{background-image: url(/web_v1/prestation/img_pres/mini_500_900.PNG);
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+        }
+
+}
+
+.text_form1{
+    
+color: white;
+ margin-top: 15px;   
+    
+}
+.text_form11{
+    
+color: white;
+   
+    
+}
+
+.bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 750px;
+}
+
+.text_inscrit{
+    
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slider{
+ background-image: url(/web_v1/prestation/coiffure/brushing_slider1.jpg); 
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+.slider_keratine{    background-image: url(/web_v1/prestation/img_pres/Keratine.jpg);
+background-repeat: no-repeat;
+height: 450px;
+width: 100%;
+}
+
+.slider_minicoiffure{    background-image: url(/web_v1/prestation/img_pres/mini.png);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    }
+
+
+.content_services{
+    margin-top: 200px;
+    position: center;
+
+}
+
+.image {
+    display: block;
+
+}
+
+.navbar-header a
+{
+    color: black;
+    text-decoration:none;
+
+}
+
+
+.bloc_service{
+
+text-color: #2A2A2A;
+    margin-top: 25px;
+    vertical-align: top;
+
+}
+
+/* nom de sous services*/
+.bloc_service li  {
+
+
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    margin-bottom: 7px;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.bloc_service li a{
+
+    color:rgba(133,133,133,0.83);
+}
+
+
+
+/*  nom de service   */
+.service a{
+    font-size: 30px;
+    color: black;
+    text-decoration:none;
+    letter-spacing: 3px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+
+.col-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin: 0 10px 20px 10px;
+    padding: 0px 0px 0px 0px;
+    background-color: lightgray;
+    width: 275px;
+    height: 275px;
+    line-height: 275px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+}
+
+.col-3:hover {
+    cursor:pointer;
+    background-size: 110% 110%;
+    transition:all 0.2s ease;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    -ms-transition:all 0.2s ease;
+}
+
+.col-ep{
+
+    background-color: red;
+}
+
+.navbar-brand1 img{
+
+    width: 250px;
+    height: 178px;
+    margin-left: 115px;
+    margin-top: 15px;
+
+}
+
+
+
+.navbar-brand11 img{
+
+    width: 250px;
+    height: 148px;
+    margin-left: 115px;
+    margin-top: 55px;
+
+}
+
+
+
+
+@media (max-width:776px) {
+
+    .navbar-brand1 img {
+        width:170px;
+            height:145px;
+            align-content: center;
+            margin-left: 90px;
+            margin-top: 140px;}
+    }
+    .bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 500px;
+}
+.slider{
+    background-image: url(/web_v1/prestation/coiffure/brushing_slider1_700.JPG); 
+       background-repeat: no-repeat;
+       height: 450px;
+       width: 100%;}
+
+
+}
+    @media (max-width:900px)
+    {
+        .navbar-brand1 img{
+            width:170px;
+            height:145px;
+            align-content: center;
+            margin-left: 90px;
+            margin-top: 140px;}
+        
+        .bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 750px;
+}
+
+    }
+    .navbar-brand_rdv img {
+        width: 200px;
+        height: 100px;
+        margin-left: 370px;
+        margin-top: 15px;
+    }
+    @media (max-width: 776px)  {
+        .navbar-brand_rdv img{
+
+        width: 70px;
+        height: 70px;
+        align-content: center;
+        margin-left: 120px;
+        margin-top: 0px;
+        }
+        
+        .bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 550px;
+}
+    }
+
+@media (max-width:500px){
+    .slider{
+        background-image: url(/web_v1/prestation/coiffure/brushing_slider1_500.JPG); 
+           background-repeat: no-repeat;
+        height: 300px;
+           width: 100%;}
+
+           .slider_minicoiffure{    background-image: url(/web_v1/prestation/img_pres/mini_500.png);
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 100%;
+            }
+
+            .slider_keratine{    background-image: url(/web_v1/prestation/img_pres/keratine_500.JPG);
+                background-repeat: no-repeat;
+                height: 300px;
+                width: 100%;
+                }
+
+
+    .bloc_principale {
+    /* margin-left: 350px; */
+    position: center;
+    display: inline-block;
+    width: 350px;
+margin-left: 1px;}
+    
+    .article1 {
+    width: 350px;
+        padding-left: 40px;}
+    
+    
+    .bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+.titre_bloc{
+    font-size: 40px;
+    letter-spacing: 1.8px;
+    font-weight: 550;
+
+}
+#perso_css{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin: inherit;
+
+}
+.timeing{
+    padding-left: 15px;
+    size: 12px;
+    font-size: 19px;
+    color: #ada7a7;
+}
+
+}
+
+/*----------------------------*/
+
+.job-category-name {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    max-height: 120px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 1.3;
+    text-align: left;
+}
+
+
+
+.detail-wrapper {
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 0 0 20px 0;
+    /* 	max-width: 1130px; */
+    max-width: 930px;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+}
+
+
+.bloc_principale{
+   /*margin-left: 350px;*/
+    position: center;
+    display: inline-block;
+    
+      
+}
+.titre_groupe{
+
+    border-radius: 0 0 12px 0;
+    border-color: #2A2A2A;
+    display: block;
+    margin-bottom: 0px;
+}
+
+
+
+
+/*-------------------------------responsive*-----------------*/
+
+
+@media(min-width:992px) and (max-width:1200px){
+
+    
+    
+    .bg-primary_frml
+{
+    background-color: #0000004a;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 750px;
+}
+    
+    .bloc_principale{
+   margin-left: 250px;
+    position: center;
+    display: inline-block;
+    width: 850px;
+}
+    #perso_btn{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-style: normal;
+         
+}
+    
+ #perso_css{
+    width: 250px;
+    margin-bottom: 15px;
+margin-right: 55px;
+}   
+    .slider{
+        width:1000px;
+        height: 480px;
+    }
+}
+
+
+/*--------------------------------------------------*/
+    
+    .bloc_principale{
+/*margin-left: 350px;*/
+    position: center;
+    display: inline-block;
+    
+}
+    
+    
+.timeing{
+    padding-left: 45px;
+    padding-right:35px;
+    size: 12px;
+    font-size: 19px;
+    color: #ada7a7;
+}
+@media (max-width:900px) and (min-width:500px)
+{
+    .timeing{
+        padding-left: 1px;
+        size: 12px;
+        font-size: 19px;
+        color: #ada7a7;
+    }
+
+}
+
+
+.pop-button-v2-s {
+    height: 40px;
+    line-height: 19px;
+    border: 0;
+    border-radius: 0;
+    background-color: #2a2a2a;
+      float: inherit;
+
+
+}
+
+.btn_resa{
+    height: 40px;
+    line-height: 19px;
+    border: 0;
+    border-radius: 0;
+    background-color: #2a2a2a;
+}
+
+#perso_btn{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-style: normal;
+}
+.titre_bloc{
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    font-weight: 550;
+    margin-top: 5px;
+
+
+
+}
+.desc_principale{
+    padding-top: 25px;
+    max-width: 550px;
+    letter-spacing: 1.8px !important;
+
+}
+#backg_desc{
+
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    font-weight: 300;
+    font-family: "proxima-nova", sans-serif;;
+}
+#accordion{
+    max-width: 550px;
+
+}
+.btn-bk-dark a{
+
+    margin: 0;
+    text-align: center;
+    display: block;
+    color: grey;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    letter-spacing: 1.8px;
+}
+.pers_esp{
+
+    margin-top:  25px;
+}
+.perso_text{
+    letter-spacing: 1.8px;
+
+}

@@ -1,0 +1,150 @@
+
+<html>
+    <head>
+        <title>Connexion - Inscription</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/registration.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="something.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 
+    <script>
+    $(document).ready(function(){
+ 
+	var options=
+	{
+		width:500,//width of slider
+		height:300,//height of slider
+                movement: 'horizontal',
+		next_prev:true,//will show next and prev links
+		next_class:'button_next',//class for next link
+		prev_class:'button_previous',//class for prev link
+                submit_class:'button_submit',//class for prev link
+		error_class:'alert alert-danger',//class for validation errors
+		texts:{
+				next:'Suivant <i class="glyphicon glyphicon-forward"></i>',
+                    prev:'<i class="glyphicon glyphicon-backward"></i> Précédant',
+                    submit:'Envoyer <i class="fa fa-hand-o-up"></i>'
+			  },
+		speed:600,//slider speed
+		error_position:'inside',
+		validation:true,
+		nav_class:'nav_class',
+		submit_id:'',
+                submit_button:false,
+		success:function(){
+ 
+		alert("Success ");
+		},
+ 
+	};
+ 
+	$('#slider').jFormslider(options);
+ 
+})
+ 
+function next_slide()
+{
+    $("#slider").nextSlide();
+}
+function next_on()
+{
+$('[ajax-url]').show()
+return true;
+}
+</script>
+ 
+ 
+    </head>
+    <body>
+        <div class="boitetop">
+            <inscr class="menu">Retour à la page de connexion</inscr>
+            <img class="logo-top" src="logo-cocoon.png" alt="Cocoon logo" />
+        </div>
+        <div class="site-container">
+            <div class="site-pusher">
+        <header class="header">
+ 
+                        <nav class="menu">
+ 
+            </nav>
+        </header>
+            <div class="site-content">
+            <div class="container">
+        <div class="registration">
+ 
+            <form class="login-form" action="inscription.php" method="POST" >
+                <h2>Inscription</h2>
+                <div id="slider">
+	<ul>
+            <li><h1>Bienvenue sur Cocoon<br>
+                Votre petit coin chaud sur la toile.</h1>
+                    <br>
+ 
+                </li>
+                <li>1-> Quel est votre <b>pseudonyme</b>?*
+                    <br>
+                    <br><b>Attention</b>, il est important d'utiliser un pseudonyme qui ne révèle que <b>très peu d'informations</b> sur <b>vous même</b>.
+                <br>
+<br>Exemple de pseudonyme :
+<br>Jacque1700 : <b>OK</b>
+<br>JacqueDupont : <b>PAS OK</b>
+<br>Millenium : <b>OK</b>
+<br>
+<br>
+<input type="text" name="pseudo" required data-msg></li>
+ 
+                <li>2-> Êtes-vous un <b>homme</b> ou une <b>femme</b>?
+                    <br>
+                    <br>
+                 <input type="radio" id="m" name="gender" value="all" checked>
+                 <label for="m">Homme</label>
+<input type="radio" id="f" name="gender" value="false">
+<label for="f">Femme</label>
+<br>
+<br>3-> Quel sera votre <b>mot de passe</b>?*
+                <br>
+                <br>Un mot de passe te permet de <b>sécuriser</b> ton compte. Vous ne devez en <b>aucun cas</b> le divulguer, même à une personne de l'équipe <i>Cocoon</i>.
+                <br>
+                <br><input type="password" name="password"required data-msg></li>
+                <li>
+                    4-> Sur quel <b>adresse e-mail</b> pouvons-nous vous contacter?*
+                    <br>
+                    <br>Ne vous inquiètez pas, nous n'allons pas vous spammer.
+                    <br>
+                    <br><input type="email" name="email"required data-msg>
+ 
+                </li>
+                <li>
+                    Envoyer les informations rentrées?
+                    <br>
+                    <br>
+                    <input class='button_submit' type="submit" value="Envoyer" />
+ 
+ 
+                </li>
+ 
+        </ul>
+ 
+ 
+</div></form>
+ 
+        </div>
+        <div>
+            <img class="displayedVertical reduce left-side-logo" src="cocoon-logo.png" alt="Cocoon logo" />
+        </div>
+        <br>
+ 
+            </div>
+            </div>
+        <div class="site-cache" id="site-cache">
+        </div>
+        </div>
+        </div>
+        <div class="boitebot">
+            <proverbe>
+            "Et si tu te démènes pour ce que tu désires, le monde conspirera pour toi"
+            <br> <author><b>Paulo Coelho</b></author></proverbe>
+        </div>
+    </body>
+</html>
